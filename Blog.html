@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Template1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Ysabeau+SC:wght@100;300;400;600;900&display=swap"
+        rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Template1.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="Template1.html">HOME</a></li>
+                    <li><a href="About Us.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Certificate & Online Programs For 2023</h1>
+    </section>
+
+    <!-- -------------------Blog Page------------------ -->
+    <section class="blog">
+        <div class="row">
+            <div class="blog-left">
+                <img src="Images/certificate.jpg">
+                <h2>Our Certificate & Online Programs For 2023</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas mollitia alias quod natus pariatur
+                    laborum amet, dolor unde. Cupiditate quas aperiam nihil, eum numquam fuga quaerat qui natus
+                    obcaecati ea odio culpa dignissimos consequatur aliquid modi suscipit esse est unde.</p>
+                <br>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus nisi odio amet ratione
+                    praesentium eum vel assumenda reprehenderit maiores ea, aperiam doloremque quo fugiat fugit officiis
+                    esse sequi saepe velit quibusdam molestias perferendis adipisci veritatis autem ipsum? Totam,
+                    dolorum delectus?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam est et sit magni!
+                    Praesentium ipsum at minus nam optio omnis quis eaque tempore natus, consequuntur veritatis non! A
+                    delectus, vero inventore ducimus ipsum illo quidem rerum sed dolor perspiciatis.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus numquam est et sit magni!
+                    Praesentium ipsum at minus nam optio omnis quis eaque tempore natus, consequuntur veritatis non! A
+                    delectus, vero inventore ducimus ipsum illo quidem rerum sed dolor perspiciatis.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+
+                    <form class="comment-form">
+                        <input type=" text" placeholder="Enter Name">
+                        <input type=" text" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- <div class="comment-box">
+                        <h3>Leave a comment</h3>
+
+                        <form class="comment-form">
+                            <input type=" text" placeholder="Enter Name">
+                            <input type=" text" placeholder="Enter email">
+                            <textarea rows="5" placeholder="Your comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                    </div> -->
+
+
+
+
+
+
+
+
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>34</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>42</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>54</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>66</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---------------FACILITIES Content----------- -->
+
+
+
+    <!-- FOOTER Section------------------ -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio ipsa nam eius expedita itaque saepe, <br>sit
+            recusandae obcaecati, temporibus similique </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made By
+        <h3>Muhammad Yasin</h3> With the HELP of <h3><i class="fa fa-heart-o"></i> Great Stack Youtube Channel <i
+                class="fa fa-heart-o"></i>
+            </div>
+        </h3>
+        </p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Javascript for Menu Toggle -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
